@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Login from './login'
 import Register from './register'
 import Task from "./Task"
+import NewTask from "./NewTask"
+
 class App extends React.Component {
 
     render() {
@@ -15,6 +17,7 @@ class App extends React.Component {
                             <Route exact path="/" component={Login}/>
                             <Route path="/register" component={Register}/>
                             <Route path="/task" component={Task}/>
+                            <Route path="/newtask" component={NewTask}/>
                         </Switch>
                     </div>
                     
