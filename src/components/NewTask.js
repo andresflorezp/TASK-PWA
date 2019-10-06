@@ -31,7 +31,9 @@ class newTask extends React.Component {
           startDate: date
         });
       };
-    render() {
+    render(){
+
+    
         return (
             <div>
                 <Nav />
@@ -86,7 +88,6 @@ class newTask extends React.Component {
             <br/><br/>
             <FormControl fullWidth>
             <DatePicker fullWidth
-            
                 selected={this.state.startDate}
                 onChange={this.handleChange}
             />
