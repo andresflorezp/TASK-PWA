@@ -22,7 +22,7 @@ class Task extends React.Component {
             <Link to="/taskfilter" style={{textDecoration:"none"}}>
               <Button
               style={{ margin: "10px",position: "fixed",
-                            top: "0.2",left:"45%"
+                            top: "0.5",left:"30%"
                            ,color:"#fff",zIndex:"100" }}
                 type='submit'
                 
