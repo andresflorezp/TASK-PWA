@@ -3,8 +3,9 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Login from './login'
 import Register from './register'
-import Task from "./Task"
-import NewTask from "./NewTask"
+import Task from "./Task";
+import NewTask from "./NewTask";
+import TaskFilter from "./TaskFilter";
 
 class App extends React.Component {
 
@@ -18,6 +19,7 @@ class App extends React.Component {
                             <Route path="/register" component={Register}/>
                             <Route path="/task" component={Task}/>
                             <Route path="/newtask" component={NewTask}/>
+                            <Route path="/taskFilter" component={TaskFilter}/>
                         </Switch>
                     </div>
                     
